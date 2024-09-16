@@ -69,5 +69,5 @@ This project is open-source and available under the MIT License.
 ---
 
 ## 🔧 Let's Connect
-Have questions? Interested in collaborating? You can reach out via the contact form on my website or shoot me an email at your.email@example.com! 🌟
+Have questions? Interested in collaborating? You can reach out via the contact form on my website or shoot me an email at e.muir91@outlook.com! 🌟
 
