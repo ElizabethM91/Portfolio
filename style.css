@@ -1,5 +1,5 @@
-header, .about, .projects, .contact, footer {
-    padding-bottom: 500px;
+html {
+    scroll-behavior: smooth;
 }
 
 #topBtn{
