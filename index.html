@@ -2,42 +2,113 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Elizabeth Muir - Data Analyst</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <div class="container">
-        <header>
-            <h1>Elizabeth Muir</h1>
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="#portfolio" target="_blank">Portfolio</a></li>
-                <li><a href="">CV</a></li>
-                <li><a href="#contact" target="_blank">Contact</a></li>
-            </ul>
-        </header>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a href="#" class="navbar-brand">Elizabeth Muir</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">CV</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
-        <div class="about">
-            <h1>About Me!</h1>
+        <div class="bg-light text-center py-5">
+            <div class="container">
+                <h1 class="display-4">Welcome!</h1>
+                <p class="lead">I'm Elizabeth Muir, A Data Analyst</p>
+                <hr class="my-4">
+                <p>See my Projects</p>
+                <a href="#portfolio" class="btn brn-primary btn-lg" role="button"></a>
+            </div>
         </div>
 
-        <div id="portfolio" class="projects">
-            <h1>Heres my work</h1>
-            <button onclick="goToTop()" id="topBtn" title="Go To Top">Top</button>
+        <div id="about" class="bg-dark text-center py-5">
+            <div class="container">
+                <h1 class="display-4 text-white">About Me!</h1>
+                <p class="text-light">Lets find out about me!</p>
+                <hr class="my-4">
+            </div>
         </div>
 
-        <div id="contact" class="contact">
-            <h1>Contact Me!</h1>
-            <button onclick="goToTop()" id="topBtn" title="Go To Top">Top</button>
+        <div id="portfolio" class="bg-light text-center py-5">
+            <div class="container"> 
+                <h1 class="display-4">Here is my work</h1>
+                <p class="">Here is my projects that I have completed and currently working on</p>
+                <button onclick="goToTop()" id="topBtn" title="Go To Top">Top</button>
+            </div>
+        </div>
+
+        <div id="contact" class="bg-dark text-center py-5">
+            <div class="container">
+                <h1 class="display-4 text-white">Contact Me!</h1>
+                <p class="text-light">Please contact me </p>
+                <button onclick="goToTop()" id="topBtn" title="Go To Top">Top</button>
+            </div>
         </div>
         
-        <footer>
-            <h1>Links to me!</h1>
-        </footer>
-    </div>
+        <footer class="bg-dark text-white text-center py-3">
+            <div class="container">
+                <p class="mb-0">&copy; 2024 Elizabeth Muir. All Rights Reserved.</p>
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="#portfolio" class="text-white">Portfolio</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#contact" class="text-white">Contact</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#about" class="text-white">About</a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://www.linkedin.com/in/elizabethmuir91/">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="mailto:e.muir91@outlook.com" class="text-white">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://www.linkedin.com/in/elizabethmuir91/" class="text-white">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
 
-    <script src="script.js"></script>
-</body>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+        
+
+        <script src="script.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://kit.fontawesome.com/4f80331eed.js" crossorigin="anonymous"></script>
+    </body>
 </html>
