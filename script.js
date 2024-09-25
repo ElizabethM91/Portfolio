@@ -16,3 +16,18 @@ function goToTop() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
 }
+
+// Scroll detection to show what part of the page you are active on
+const sections = document.querySelectorAll("section");
+const navLinks = document.querySelectorAll(".navbar-nav .nav-link");
+
+function changeActiveLink() {
+    let index = sections.length;
+    while (--index && window.scrollY + 50 
+        < sections[index].offsetTop) {}
+
+        navLinks.forEach((link) => link.classList.remove("active"));
+        navLinks[index].classList.add("active");
+}
+
+window.addEventListener("scroll", changeActiveLink);
